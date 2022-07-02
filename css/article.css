@@ -25,6 +25,7 @@ main {
     border-radius: 10px;
     display: flex;
     position: relative;
+    box-shadow: 0px 40px 40px -10px rgb(183 199 216 / 30%);
 }
 
 @media (max-width: 768px) {
