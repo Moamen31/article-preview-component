@@ -33,7 +33,12 @@ main {
         width: 90vw;
         height: auto;
         flex-direction: column;
+        max-width: 400px;
     }
+}
+
+.card .img{
+    width:50%;
 }
 
 .card .img img {
@@ -49,6 +54,9 @@ main {
     .card .img img {
         border-bottom-left-radius: 0;
         border-top-right-radius: 10px;
+    }
+    .card .img{
+    width:100%;
     }
 }
 
